@@ -1,0 +1,41 @@
+
+body{
+	margin:0px
+}
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1
+{
+    font-family: 'Nanum Pen Script', cursive;
+	font-size: 2em; 
+	font-weight:900;
+	border-bottom: 2px solid pink;
+	border-right:2px solid pink; 
+    /*Gives the image a 3D look*/
+    box-shadow: 4px 4px 5px grey;
+	/*text-shadow:50px solid grey;*/
+    width: 400px;
+	text-align:center;
+	margin-top: 10px;
+
+	/*background-color: grey;*/
+
+
+}
+
+img 
+{ 
+width: 450px;
+height:300px;
+margin:10px;
+/*allows images to move for 1 second*/
+transition: all 1s;
+
+ }
+img:hover {
+	
+	transform: scale(1.1);
+}
